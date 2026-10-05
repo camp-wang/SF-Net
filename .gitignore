@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+dataset/
+weights/
+outputs/
+experiment/
+trained_models/
+*.pth
+*.pt
+*.pk
+*.mat
+*.log

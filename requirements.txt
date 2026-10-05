@@ -1,0 +1,9 @@
+opencv-python==4.6.0.66
+einops
+matplotlib
+numpy
+Pillow
+pyiqa
+tqdm
+torch
+torchvision
