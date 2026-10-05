@@ -1,4 +1,4 @@
-# SF-PINet / SF-Net
+#SF-Net
 
 Code accompanying the manuscript “一种具有空间频率感知与质量引导自精炼的半监督夜间图像去雾方法”.
 
@@ -9,7 +9,6 @@ Code accompanying the manuscript “一种具有空间频率感知与质量引�
 - `self_refinement_nhm.py`: teacher–student self-refinement with uncertainty-filtered pseudo-labels, EMA updates, and quality-based segment rollback.
 - `train_unreal_train_test.py`: separate Unreal-NH training experiment. It selects checkpoints using the test split and should not be treated as a held-out evaluation protocol.
 
-The source code uses the manuscript names **SFDA** and **DSRM**. The renaming changes class and configuration identifiers only; it does not change the module operations or checkpoint parameter keys.
 
 ## Environment
 
